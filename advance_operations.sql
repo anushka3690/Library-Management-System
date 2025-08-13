@@ -6,7 +6,7 @@ SELECT * FROM members;
 SELECT * FROM return_status;
 
 /*
-Task 5: 
+Task 9: 
 Identify Members with Overdue Books
 Write a query to identify members who have overdue books (assume a 30-day return period). 
 Display the member's_id, member's name, book title, issue date, and days overdue.
@@ -46,7 +46,7 @@ ORDER BY 1
 
 -- 
 /*    
-Task 6: Update Book Status on Return
+Task 10: Update Book Status on Return
 Write a query to update the status of books in the books table to "Yes" when they are returned (based on entries in the return_status table).
 */
 
@@ -135,7 +135,7 @@ CALL add_return_records('RS148', 'IS140', 'Good');
 
 
 /*
-Task 7: Stored Procedure Objective: Create a stored procedure to manage the status of books in a library system. 
+Task 11: Stored Procedure Objective: Create a stored procedure to manage the status of books in a library system. 
 Description: Write a stored procedure that updates the status of a book in the library based on its issuance. 
 
 The procedure should function as follows: 
