@@ -1,6 +1,11 @@
 # Library-Management-System
 It is a relational database project designed to perform CRUD operations that tracks book inventory and book issue/return status of the registered employees.
 
+## Portfolio summary
+
+This PostgreSQL project models a small library's books, branches, employees, members, and issue/return activity. The SQL scripts cover schema design and relationships, CRUD operations, joins, aggregations, date-based reporting, overdue-book analysis, and stored procedures for issuing and returning books.
+
+**Business questions explored:** which books are outstanding or overdue, rental activity by category, member registration patterns, and operational status changes. The repository includes the SQL scripts and sample CSV tables.
 
 ## Objectives
 
